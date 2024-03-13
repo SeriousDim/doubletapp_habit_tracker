@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="habit_color_1">#FFFF0000</color>
+    <color name="habit_color_2">#FFFF6600</color>
+    <color name="habit_color_3">#FFFFCC00</color>
+    <color name="habit_color_4">#FFCCFF00</color>
+
+    <color name="habit_color_5">#FF66FF00</color>
+    <color name="habit_color_6">#FF00FF00</color>
+    <color name="habit_color_7">#FF00FF66</color>
+    <color name="habit_color_8">#FF00FFCC</color>
+
+    <color name="habit_color_9">#FF00CCFF</color>
+    <color name="habit_color_10">#FF0066FF</color>
+    <color name="habit_color_11">#FF0000FF</color>
+    <color name="habit_color_12">#FF6600FF</color>
+
+    <color name="habit_color_13">#FFCC00FF</color>
+    <color name="habit_color_14">#FFFF00CC</color>
+    <color name="habit_color_15">#FFFF0066</color>
+    <color name="habit_color_16">#FFFF0004</color>
+</resources>

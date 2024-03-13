@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Doubletapp Habit Tracker</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="habit_list_fragment_label">Список привычек</string>
+    <string name="habit">Привычка</string>
+    <string name="create_habit_label">Создать привычку</string>
+    <string name="edit_habit_label">Редактировать привычку</string>
+
+    <string name="habit_title_placeholder">Новая привычка</string>
+
+    <string name="description">Описание</string>
+    <string name="description_hint">Введите описание…</string>
+
+    <string name="habit_priority">Приоритет</string>
+    <string-array name="habit_priorities">
+        <item>Низкий</item>
+        <item>Средний</item>
+        <item>Высокий</item>
+    </string-array>
+
+    <string name="habit_type">Тип</string>
+    <string name="habit_type_1">Тип привычки 1</string>
+    <string name="habit_type_2">Тип привычки 2</string>
+    <string name="habit_type_3">Тип привычки 3</string>
+
+    <string name="habit_period">Периодичность</string>
+    <string name="times_in">раз в</string>
+    <string name="days">дней</string>
+
+    <string name="save">Сохранить</string>
+
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/hsv_gradient"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/habit_color_button_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/habit_color_1"
+            android:backgroundTintMode="add" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_2" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_3" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_4" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_5" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_6" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_7" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_8" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_9" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_10"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_10" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_11"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_11" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_12" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_13" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_14" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_15" />
+
+        <ImageButton
+            android:id="@+id/habit_color_button_16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/habit_color_16" />
+    </LinearLayout>
+</HorizontalScrollView>
