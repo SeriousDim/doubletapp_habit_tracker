@@ -100,9 +100,8 @@ class HabitFragment(
         super.onViewCreated(view, savedInstanceState)
 
         habitTypeButtons = mapOf(
-            HabitType.TYPE_1 to binding.type1.id,
-            HabitType.TYPE_2 to binding.type2.id,
-            HabitType.TYPE_3 to binding.type3.id
+            HabitType.GOOD to binding.type1.id,
+            HabitType.BAD to binding.type2.id
         )
 
         val habitBundle = arguments?.getBundle(RESULT_HABIT_KEY)
@@ -115,7 +114,7 @@ class HabitFragment(
                 binding.habitDescription.text.toString(),
                 R.color.habit_color_1,
                 HabitPriority.LOW,
-                HabitType.TYPE_1,
+                HabitType.GOOD,
                 HabitPeriod(
                     1,
                     1

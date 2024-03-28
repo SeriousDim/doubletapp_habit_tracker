@@ -1,10 +1,12 @@
 package ru.seriousdim.habittracker.dataclasses
 
 import android.os.Bundle
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import ru.seriousdim.habittracker.R
-import ru.seriousdim.habittracker.interfaces.IBundleable
 import java.time.Period
 
+@Parcelize
 data class Habit(
     var title: String,
     var description: String,
@@ -12,7 +14,7 @@ data class Habit(
     var priority: HabitPriority,
     var type: HabitType,
     var period: HabitPeriod
-): IBundleable {
+) : Parcelable {
     companion object {
         fun getHabitPriorityByValue(index: Int): HabitPriority? {
             return HabitPriority.values().firstOrNull { it.index == index }
@@ -37,7 +39,7 @@ data class Habit(
         )
     )
 
-    override fun toBundle(): Bundle {
+    fun toBundle(): Bundle {
         return Bundle().apply {
             putString("title", title)
             putString("description", description)

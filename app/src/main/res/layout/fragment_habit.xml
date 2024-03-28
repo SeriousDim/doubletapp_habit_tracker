@@ -144,11 +144,6 @@
                     android:layout_height="wrap_content"
                     android:text="@string/habit_type_2" />
 
-                <RadioButton
-                    android:id="@+id/type_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/habit_type_3" />
             </RadioGroup>
 
             <EditText

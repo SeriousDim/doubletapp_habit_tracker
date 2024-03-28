@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_habit_list">
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="ru.seriousdim.habittracker.info_fragment.InfoFragment"
+        android:label="@string/info_fragment_label"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_habit_list"
+        android:name="ru.seriousdim.habittracker.habit_view_pager.HabitViewPagerFragment"
+        android:label="@string/habit_list_fragment_label"
+        tools:layout="@layout/fragment_habit_view_pager" >
+        <action
+            android:id="@+id/action_nav_habit_list_to_habit_fragment"
+            app:destination="@id/habit_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/habit_fragment"
+        android:name="ru.seriousdim.habittracker.habit_fragment_new.HabitFragmentNew"
+        android:label="@string/habit"
+        tools:layout="@layout/fragment_habit_new" />
+</navigation>
